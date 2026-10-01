@@ -1,0 +1,138 @@
+{
+  "project_name": "PAKOPPS (Pakistan Opportunities Search Engine)",
+  "app_type": "hybrid_fullstack",
+  "theme_strategy": {
+    "default_mode": "light",
+    "mode_toggle_supported": true,
+    "archetype": "SWISS & HIGH-CONTRAST / PERFORMANCE PRO",
+    "rationale": "For an opportunity search engine serving millions of Pakistani youth, professionals, and students, absolute legibility, high contrast, fast loading, and authoritative trust are essential."
+  },
+  "colors": {
+    "primary": {
+      "hex": "#0a2540",
+      "hsl": "210 73% 15%",
+      "description": "Deep Emerald Navy - Trustworthy, authoritative primary shade"
+    },
+    "secondary": {
+      "hex": "#0066cc",
+      "hsl": "210 100% 40%",
+      "description": "Electric Blue - Actionable secondary shade for key interactive elements"
+    },
+    "accent_emerald": {
+      "hex": "#059669",
+      "hsl": "160 84% 39%",
+      "description": "Pakistani Sovereign Emerald - Used for verified badges, government opportunities, success states"
+    },
+    "accent_gold": {
+      "hex": "#d97706",
+      "hsl": "38 92% 50%",
+      "description": "Urgent Warning Amber - Closing Soon badges and high-priority deadline callouts"
+    },
+    "background_light": {
+      "hex": "#f8fafc",
+      "hsl": "210 40% 98%",
+      "description": "Off-white cool slate surface"
+    },
+    "surface_card": {
+      "hex": "#ffffff",
+      "hsl": "0 0% 100%",
+      "description": "Pure white card background"
+    },
+    "text_dark": {
+      "hex": "#0f172a",
+      "hsl": "222 47% 11%",
+      "description": "Deep Charcoal for high-contrast typography"
+    },
+    "text_muted": {
+      "hex": "#475569",
+      "hsl": "215 16% 47%",
+      "description": "Muted slate for secondary metadata and subheadings"
+    },
+    "border_subtle": {
+      "hex": "#e2e8f0",
+      "hsl": "214 32% 91%",
+      "description": "Crisp 1px border stroke for cardless/bento layouts"
+    }
+  },
+  "typography": {
+    "heading_font": "Outfit, Plus Jakarta Sans, sans-serif",
+    "body_font": "Inter, system-ui, sans-serif",
+    "mono_font": "JetBrains Mono, monospace",
+    "hierarchy": {
+      "h1_hero": "text-3xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight leading-tight",
+      "h2_section": "text-2xl sm:text-3xl lg:text-4xl font-bold tracking-tight",
+      "h3_card": "text-lg sm:text-xl font-semibold tracking-tight",
+      "body": "text-sm sm:text-base leading-relaxed text-slate-700 dark:text-slate-300",
+      "badge": "text-xs font-semibold tracking-wide uppercase px-2.5 py-0.5 rounded-full"
+    }
+  },
+  "grids_and_layouts": {
+    "hero_section": "Asymmetric bento grid with high-impact quick search card, live opportunity counter ticker, and quick category pills",
+    "opportunity_feed": "Responsive bento grid (1 col mobile, 2 cols tablet, 3 cols desktop) with strict padding (p-5 sm:p-6), clear visual badges, and hover lift effects",
+    "detail_layout": "2-column layout with 8-col main content (description, eligibility, application steps) and 4-col sticky quick-facts widget (deadline countdown, salary/stipend, organization logo, direct verified source CTA)",
+    "filter_drawer_and_sidebar": "Sticky left or top filter bar with real-time reactive filters and clear-all triggers"
+  },
+  "visual_enhancers": {
+    "glassmorphism": "backdrop-blur-md bg-white/80 dark:bg-slate-900/80 border border-slate-200/60 dark:border-slate-800/60",
+    "card_borders": "border border-slate-200 dark:border-slate-800 shadow-sm hover:shadow-md hover:border-slate-300 dark:hover:border-slate-700 transition-all duration-200",
+    "badges": {
+      "government": "bg-emerald-50 text-emerald-800 border-emerald-200 border dark:bg-emerald-950/50 dark:text-emerald-300 dark:border-emerald-800",
+      "private": "bg-blue-50 text-blue-800 border-blue-200 border dark:bg-blue-950/50 dark:text-blue-300 dark:border-blue-800",
+      "scholarship": "bg-purple-50 text-purple-800 border-purple-200 border dark:bg-purple-950/50 dark:text-purple-300 dark:border-purple-800",
+      "closing_soon": "bg-amber-50 text-amber-800 border-amber-200 border dark:bg-amber-950/50 dark:text-amber-300 dark:border-amber-800",
+      "remote": "bg-teal-50 text-teal-800 border-teal-200 border dark:bg-teal-950/50 dark:text-teal-300 dark:border-teal-800"
+    },
+    "ad_slots_placeholders": {
+      "strategy": "Dedicated AdSlot components (AdSlotTop, AdSlotBetweenContent, AdSlotSidebar, AdSlotInContent, AdSlotBottom) with subtle dashed boundaries, clear sponsor disclaimer, and toggle switch to preview live or empty state."
+    }
+  },
+  "image_urls": {
+    "hero_background_students": "https://images.unsplash.com/photo-1790339613413-4908b5e9faff?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzMzN8MHwxfHNlYXJjaHw0fHx1bml2ZXJzaXR5JTIwc3R1ZGVudHMlMjBncmFtdWF0aW9uJTIwbGVhcm5pbmclMjBjYW1wdXN8ZW58MHx8fHwxNzkwODc2MzUxfDA&ixlib=rb-4.1.0&q=85",
+    "pakistan_flag_landscape": "https://images.unsplash.com/photo-1693141520831-f0466dd82cdc?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjY2NzV8MHwxfHNlYXJjaHwxfHxwYWtpc3RhbiUyMGxhbmRzY2FwZSUyMG1vZGVybiUyMHN0dWRlbnRzJTIwZ3JhZHVhdGVzJTIwY2FyZWVyJTIwd29ya3xlbnwwfHx8fDE3OTA4NzYzNDN8MA&ixlib=rb-4.1.0&q=85",
+    "university_campus_scholarships": "https://images.unsplash.com/photo-1774600787310-6f9559d9bdac?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzMzN8MHwxfHNlYXJjaHwyfHx1bml2ZXJzaXR5JTIwc3R1ZGVudHMlMjBncmFtdWF0aW9uJTIwbGVhcm5pbmclMjBjYW1wdXN8ZW58MHx8fHwxNzkwODc2MzUxfDA&ixlib=rb-4.1.0&q=85",
+    "professional_workspace_tech": "https://images.unsplash.com/photo-1783538771515-78a987fcdbbf?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA2ODl8MHwxfHNlYXJjaHwzfHxtb2Rlcm4lMjBvZmZpY2UlMjBwcm9mZXNzaW9uYWwlMjB0ZWNobm9sb2d5JTIwd29yayUyMGRlc2t8ZW58MHx8fHwxNzkwODc2MzUxfDA&ixlib=rb-4.1.0&q=85",
+    "remote_worker_laptop": "https://images.unsplash.com/photo-1762341121032-510ad9df0ba6?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA2ODl8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBvZmZpY2UlMjBwcm9mZXNzaW9uYWwlMjB0ZWNobm9sb2d5JTIwd29yayUyMGRlc2t8ZW58MHx8fHwxNzkwODc2MzUxfDA&ixlib=rb-4.1.0&q=85",
+    "graduate_student_portrait": "https://images.unsplash.com/photo-1762438135616-926e87b91e08?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzMzN8MHwxfHNlYXJjaHwzfHx1bml2ZXJzaXR5JTIwc3R1ZGVudHMlMjBncmFtdWF0aW9uJTIwbGVhcm5pbmclMjBjYW1wdXN8ZW58MHx8fHwxNzkwODc2MzUxfDA&ixlib=rb-4.1.0&q=85"
+  },
+  "component_name": {
+    "Header": "Header containing brand logo PAKOPPS, quick search shortcut, primary nav links, and theme toggle button",
+    "HeroSection": "Hero banner with Pakistan-focused tagline, big search bar with instant autocomplete, filter chips, and live opportunity counters",
+    "OpportunityCard": "Card displaying opportunity status, title, organization, location badge, deadline countdown, verification stamp, and View Details button",
+    "OpportunityDetail": "Comprehensive verification page showing official notification source, detailed eligibility, salary/stipend, syllabus/test details, and official apply link",
+    "AdvancedSearch": "Powerful filter component supporting category, province/city, education qualification, job type, salary range, closing soon, and sorting",
+    "AdSlot": "AdSlot component supporting top, inline, sidebar, between content, and footer positions with toggle for placeholder view",
+    "TrustPages": "Pages covering Editorial Policy, Source Verification Method, How It Works, Disclaimer, Terms, Privacy, and Report Opportunity Form",
+    "ResourceCenter": "Career guides, resume tips, entry test preparation links, and scholarship application step-by-step guides",
+    "Footer": "SEO-rich multi-column footer with province/city directory links, popular categories, trust badges, and copyright statement"
+  },
+  "motion": {
+    "framework": "framer-motion",
+    "transitions": "Smooth scale on button press (whileTap={{ scale: 0.98 }}), subtle hover elevation (whileHover={{ y: -2 }}), staggered list entrance",
+    "reduced_motion": "Respect prefers-reduced-motion via Framer Motion useReducedMotion"
+  },
+  "accessibility": {
+    "contrast": "Strict WCAG AA adherence across all badges and interactive states",
+    "focus_states": "Visible focus ring (focus-visible:ring-2 focus-visible:ring-blue-600 focus-visible:ring-offset-2)",
+    "mobile_touch_targets": "Minimum 44px by 44px for buttons, tags, and inputs"
+  },
+  "testing_requirements": {
+    "data_testid_rule": "ALL interactive and key informational elements MUST include a data-testid attribute in kebab-case format (e.g., data-testid='search-input', data-testid='opportunity-card-1', data-testid='apply-official-button')"
+  },
+  "instructions_to_main_agent": [
+    "Note that files in this project use standard React JavaScript (.js and .jsx extensions, NOT .tsx). Ensure imports and exports follow JS syntax.",
+    "Implement PAKOPPS as a completely PUBLIC search engine and directory — NO login, NO registration, NO user dashboard, NO admin panel required.",
+    "Ensure AdSlot components (AdSlotTop, AdSlotBetweenContent, AdSlotSidebar, AdSlotInContent, AdSlotBottom) are strategically rendered but rendered as elegant disabled placeholders or subtle sponsor cards with full AdSense structure.",
+    "Include realistic mock dataset of 50+ Pakistani and International opportunities covering Federal Public Service Commission (FPSC), Punjab Public Service Commission (PPSC), Sindh Public Service Commission (SPSC), HEC Scholarships, Fulbright, Commonwealth, Tech Remote Jobs, Bank Jobs, Engineering Apprenticeships, and Medical Admissions.",
+    "Ensure every opportunity card has clear badges: Government/Private, Full-time/Remote, Qualification requirement (Matric, Inter, Bachelors, Masters, PhD), City/Province, and Deadline with color-coded urgency.",
+    "Add 'Report an Opportunity' modal or page to report expired or inaccurate listings, reinforcing trust.",
+    "Provide a dedicated SEO-friendly URL structure or view state for categories (e.g. /government-jobs, /scholarships, /remote-jobs) and detail views.",
+    "Include every data-testid on interactive elements for reliable end-to-end testing."
+  ],
+  "UNIVERSAL GUIDELINES FOR MAIN AGENT": {
+    "avoid_ai_slop": "Do not build generic single-column job boards. Use high-density bento grids, crisp typography, custom status badges, and authentic trust indicators.",
+    "transitions_rule": "Do NOT use 'transition: all'. Specify explicit properties such as transition-colors, transition-transform, transition-opacity.",
+    "no_center_align_app": "Never apply text-align: center on the main app container. Keep left-aligned natural reading flow.",
+    "contrast_and_hover": "Hover states must explicitly declare text color and background color to avoid invisible text on hover.",
+    "no_ai_emojis": "Use lucide-react icons instead of emojis for icons or indicators."
+  }
+}

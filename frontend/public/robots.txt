@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /search
+Disallow: /report-an-opportunity
+
+Sitemap: https://career-hub-pk-1.preview.emergentagent.com/api/sitemap.xml
